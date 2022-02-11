@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Test</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJSUzI1NiIsImtpZCI6IkVEMTFCNzg3RUNENkMwN0M1NUY3RDgzRDY1MDREOEE1QkE2NUZGOTRSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IjdSRzNoLXpXd0h4Vjk5ZzlaUVRZcGJwbF81USJ9.eyJuYmYiOjE2NDQ0NTM5ODAsImV4cCI6MTY0NDQ1NTc4MCwiaXNzIjoiaHR0cHM6Ly90ZXN0My5nYW1jdXN0b20uY29tL2lkZW50aXR5YXBpIiwiYXVkIjpbIjUwMyIsIjUxOSIsIjUxMCIsIjUxNiJdLCJjbGllbnRfaWQiOiJzZXJ2aWNlVGVzdGVyIiwiaWF0IjoxNjQ0NDUzOTgwLCJzY29wZSI6WyJwcm9kdWNlcmluZm9hcGktZnVsbCIsInVzZXJpbmZvYXBpLWZ1bGwiXX0.ic160EoxxuPA1Z2IF0km0qYBhF_nq4cyEG_6Mle8ONpPL3O_lT7Xau2fLw_-X4sJXROTI4qs8oiDCw6yKkYiJu9br-1GLBYTq26gIfmQ7pC1RMMJl0zRMwwBeMMHzjCM7qdNWn5k1SeVrjFCkxHrDdNtfbKtZ6_JwIOgZumemHimu7bNf0oeMaOiMB0OQd3QfBJuG89JhgFnmMy_9QmmGv4RFZ6VO3mFXPm6ah08MmBcOwd-unTo86SWjBZ90H36knAdX1K2gGFYXMnM6XXvQVZ6zVAH6XlNShBQhiNdhojK99KCPBTsdfOkJVbRISkUoQr0X71qnKw0nxii8maJ-g'</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://tapi4.gamcustom.net'</initValue>
+      <name>TestEnv</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&quot;bsathavara&quot;'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&quot;@User2022Gamcustom1&quot;'</initValue>
+      <name>pwd</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

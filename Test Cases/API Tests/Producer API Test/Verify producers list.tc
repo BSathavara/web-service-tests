@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify producers list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ac7e7d9-5b21-4a82-bd08-cd8d8b5ffb6f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Producer List').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1255e43c-2a55-4e82-95a1-613f4ec9ee4c</id>
+      <masked>false</masked>
+      <name>code</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Producer List').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>f6bc5bfc-fe42-4658-8a40-d480acabdcb1</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Producer List').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>51f43b63-a356-44e7-b4b3-c4396875ae45</id>
+      <masked>false</masked>
+      <name>headquarterCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Producer List').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>fa1b951c-91f7-4aec-bcbe-01cc1cb84909</id>
+      <masked>false</masked>
+      <name>branchNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Producer List').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>1e1cdc83-a96c-4a74-bd8b-2b796fc0595f</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Producer List').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>b3537f3e-aa64-410a-9f09-9b9a42bf2f76</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+</TestCaseEntity>

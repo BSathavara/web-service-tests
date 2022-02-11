@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify user with firstname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc22c158-45f9-4f0f-8eca-474e2d34a341</testCaseGuid>
+</TestCaseEntity>

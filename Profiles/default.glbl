@@ -6,17 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://sample-web-service-aut.herokuapp.com'</initValue>
-      <name>baseUrl</name>
+      <initValue>'eyJhbGciOiJSUzI1NiIsImtpZCI6IkVEMTFCNzg3RUNENkMwN0M1NUY3RDgzRDY1MDREOEE1QkE2NUZGOTRSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IjdSRzNoLXpXd0h4Vjk5ZzlaUVRZcGJwbF81USJ9.eyJuYmYiOjE2NDQ0NDcyMTQsImV4cCI6MTY0NDQ0OTAxNCwiaXNzIjoiaHR0cHM6Ly90ZXN0My5nYW1jdXN0b20uY29tL2lkZW50aXR5YXBpIiwiYXVkIjpbIjUwMyIsIjUxOSIsIjUxMCIsIjUxNiJdLCJjbGllbnRfaWQiOiJzZXJ2aWNlVGVzdGVyIiwiaWF0IjoxNjQ0NDQ3MjE0LCJzY29wZSI6WyJwcm9kdWNlcmluZm9hcGktZnVsbCIsInVzZXJpbmZvYXBpLWZ1bGwiXX0.TFoNUUKxhz25jVwivZV4x-yj0eKY6x2R0JLhpFpziH7YCXFpvRJjuewFRGBhBHoQWNYc5evipws_2wohdvBsmxSoWSvVKpnZCcxJeYPckDTBVCFxYICy20nIuOLH0IOmEsZr-yPR_XyVDfqVATQDlyKz7mTikRh247HNjnHPeiY-x5OFuk7xaQzOh8ZNNBQCnzyBvN2v_FFD8gg-TV0sSDd4t-VnzDptNqo_MB8ejhbucwni0BQhtAgUmiBz6KWWb1skBHquEJEgqPhcxdKOC1PdWaM-IaOKffUS9F5UfqBnKfhKappgy7XGPkXmxAu77FUu_r6uj9Frzqxobo-uyg'</initValue>
+      <name>token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>200</initValue>
-      <name>successCode</name>
+      <initValue>'https://tapi4.gamcustom.net/userinfoapi'</initValue>
+      <name>TestEnv</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>0</initValue>
-      <name>globalId</name>
+      <initValue>'&quot;Flg0Y8zl21v2MWEvuyq8jw==&quot;'</initValue>
+      <name>username</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
