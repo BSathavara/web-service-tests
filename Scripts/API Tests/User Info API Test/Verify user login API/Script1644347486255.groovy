@@ -1,8 +1,16 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import groovy.json.JsonSlurper as JsonSlurper
 import internal.GlobalVariable as GlobalVariable
+
+// Calling get access token API to collect new token
+WebUI.callTestCase(findTestCase('API Tests/Verify Token/API access token'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //*************************** Empty credentials field **********************************************************************************
 response = WS.sendRequest(findTestObject('API Requests/User Info/InValid - blank credentials', [('userToken') : GlobalVariable.token]))

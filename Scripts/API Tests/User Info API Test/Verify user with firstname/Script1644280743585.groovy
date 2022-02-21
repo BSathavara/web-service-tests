@@ -1,9 +1,16 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-
-import groovy.json.JsonSlurper
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import groovy.json.JsonSlurper as JsonSlurper
 import internal.GlobalVariable as GlobalVariable
+
+// Calling get access token API to collect new token
+WebUI.callTestCase(findTestCase('API Tests/Verify Token/API access token'), [:], FailureHandling.STOP_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('API Requests/User Info/get user with fname', [('userToken') : GlobalVariable.token]))
 
@@ -36,5 +43,4 @@ WS.verifyEqual(lname, 'Benick')
 WS.verifyEqual(type, 'Workforce')
 WS.verifyEqual(pageNumber, '1')
 WS.verifyEqual(pageSize, '50')
-WS.verifyEqual(totalItems, '1')
 WS.verifyEqual(pageCount, '1')

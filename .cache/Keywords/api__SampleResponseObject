@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DB1AA77D1119A81C3730351C408DC317",
+  "keywordClasses": [
+    {
+      "name": "api.SampleResponseObject",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

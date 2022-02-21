@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>get user with fname</name>
+   <name>get user with ID From Test Data - Copy</name>
    <tag></tag>
-   <elementGuidId>cee928cd-e8e7-4fd6-8d4e-e40a241887b4</elementGuidId>
+   <elementGuidId>1736197f-db2b-4a7e-825b-7e92e6aab9e2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
@@ -22,7 +22,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${url}/userinfoapi/v1/users?firstName=Brad</restUrl>
+   <restUrl>${url}/userinfoapi/v1/users?username=${userName}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -44,6 +44,13 @@
       <id>8d0acdfb-6a61-43c6-8192-7fe9ebb7f0e9</id>
       <masked>false</masked>
       <name>url</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d4a91064-565a-4ca5-8988-c99bc3365225</id>
+      <masked>false</masked>
+      <name>userName</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

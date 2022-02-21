@@ -1,9 +1,16 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-
-import groovy.json.JsonSlurper
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import groovy.json.JsonSlurper as JsonSlurper
 import internal.GlobalVariable as GlobalVariable
+
+// Calling get access token API to collect new token
+WebUI.callTestCase(findTestCase('API Tests/Verify Token/API access token'), [:], FailureHandling.STOP_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('API Requests/User Info/get user with IDs', [('userToken') : GlobalVariable.token]))
 
@@ -41,8 +48,8 @@ def type1 = result.type[1]
 
 // Getting data from API and verify it here
 WS.verifyEqual(id1, 'a5d72f28-13e4-48b8-a699-8ef6ce0783a3')
-WS.verifyEqual(username1, 'benickb')
-WS.verifyEqual(displayName1, 'Bradley A. Benick')
-WS.verifyEqual(fname1, 'Bradley')
+WS.verifyEqual(username1, 'BENICKB')
+WS.verifyEqual(displayName1, 'Brad Benick')
+WS.verifyEqual(fname1, 'Brad')
 WS.verifyEqual(lname1, 'Benick')
 WS.verifyEqual(type1, 'Workforce')

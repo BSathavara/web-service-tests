@@ -5,7 +5,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-// Verifying 401 Page not found response
+// Calling get access token API to collect new token
+WebUI.callTestCase(findTestCase('API Tests/Verify Token/API access token'), [:], FailureHandling.STOP_ON_FAILURE)
+
+// Verifying 400 Page not found response
 response = WS.sendRequest(findTestObject('API Requests/User Info/InValid - 400 Bad Request', [('token') : GlobalVariable.token]))
 WS.verifyResponseStatusCode(response, 400)
 
