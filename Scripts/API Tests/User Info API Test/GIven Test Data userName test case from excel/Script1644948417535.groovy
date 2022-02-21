@@ -37,7 +37,7 @@ for (int i = 0; i <= lastRow; i++) {
     response = WS.sendRequest(findTestObject('API Requests/User Info/get user with ID From Test Data', [('token') : GlobalVariable.token, ('url') : GlobalVariable.TestEnv
                 , ('userName') : getUserNameFromTable]))
 
-    // Verifying API Responses here
+    // Verifying API Response here
     WS.verifyResponseStatusCode(response, 200)
 	
     def slurper = new JsonSlurper()

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "F046B726E4E027401EA600FAF8877553",
+  "keywordFileContentHash": "7C0455DA8ED2D8DAC6E3F0D2EAA9C435",
   "keywordClasses": [
     {
       "name": "excel.WriteExcel",
@@ -59,10 +59,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
