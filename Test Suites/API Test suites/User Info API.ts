@@ -5,50 +5,50 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>5b04e277-0e1e-4bf7-bb61-edd9a4603db2</testSuiteGuid>
+   <testSuiteGuid>87fffec5-ab26-4477-9676-a505bec716fc</testSuiteGuid>
    <testCaseLink>
-      <guid>65c60c92-f093-4c6f-a4c8-d21b94e3fd43</guid>
+      <guid>1b2b57fe-e69c-4985-9a5b-09997b992efc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API Tests/User Info API Test/GIven Test Data userName test case from excel</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0b7f4639-8f24-4988-a42d-1a067201d499</guid>
+      <guid>00c949b4-feb9-45e7-a95b-055de9ff32b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API Tests/User Info API Test/Verify InValid Scenarios - User Info API</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>67b72765-52f2-4bcc-afaa-962af5bd7c1d</guid>
+      <guid>53b959bc-861b-4e54-b795-026946c6eb20</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API Tests/User Info API Test/Verify user login API</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>59660544-e05b-4207-a876-09d0bbaf51bf</guid>
+      <guid>7b583cf2-ba1b-4a2e-958b-7ea8a2c340e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API Tests/User Info API Test/Verify user with firstname</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba9fce39-f04c-4f79-a949-ac83db0825b2</guid>
+      <guid>4946145c-4db5-4ef0-a98a-d54929389e78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API Tests/User Info API Test/Verify user with ID URI</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>67081a1d-190a-4e7a-b333-fc71dcd632b9</guid>
+      <guid>60b5c78f-bc63-4a4d-a142-acdefe6f7c1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API Tests/User Info API Test/Verify user with lastname</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0c4f671b-542f-4de5-85a7-2089d782ded2</guid>
+      <guid>989ca682-be57-4a29-b0a9-e2fadfec262c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API Tests/User Info API Test/Verify user with multiple IDs</testCaseId>
