@@ -25,7 +25,8 @@ import org.openqa.selenium.WebElement as WebElement
 // Calling get access token API to collect new token
 WebUI.callTestCase(findTestCase('API Tests/Verify Token/API access token'), [:], FailureHandling.STOP_ON_FAILURE)
 
-file = "C:\\Users\\bsathavara\\Katalon Studio\\userInfoData\\userdata.xlsx";
+//file = "C:\\Users\\bsathavara\\Katalon Studio\\userInfoData\\userdata.xlsx";
+file = "Data Files\\userdata.xlsx";
 allData = findTestData('Data Files/UserInfo Ids').getAllData()
 lastRow = allData.size()
 
