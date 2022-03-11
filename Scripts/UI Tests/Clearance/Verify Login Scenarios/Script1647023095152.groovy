@@ -15,7 +15,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/UI/Clearance/Page H
 WebUI.verifyElementPresent(findTestObject('Object Repository/UI/Clearance/Page Header/txtClearance'), 2)
 WebUI.verifyElementPresent(findTestObject('Object Repository/UI/Clearance/Page Header/btnHome'), 2)
 
-// Verify Login Page and fields appear
+// Verify Login Page and fields appears
 WebUI.verifyElementPresent(findTestObject('Object Repository/UI/Clearance/Login Page/txtLogin'), 2)
 WebUI.verifyElementPresent(findTestObject('Object Repository/UI/Clearance/Login Page/tbUserID'), 2)
 WebUI.verifyElementPresent(findTestObject('Object Repository/UI/Clearance/Login Page/tbPassword'), 2)
