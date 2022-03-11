@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>get user with ID From Test Data</name>
+   <name>get user with UserName From Test Data</name>
    <tag></tag>
    <elementGuidId>dc59ac40-38eb-4b3b-b57b-3295ca6dab64</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJSUzI1NiIsImtpZCI6IkVEMTFCNzg3RUNENkMwN0M1NUY3RDgzRDY1MDREOEE1QkE2NUZGOTRSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IjdSRzNoLXpXd0h4Vjk5ZzlaUVRZcGJwbF81USJ9.eyJuYmYiOjE2NDU0NjQwMzgsImV4cCI6MTY0NTQ2NTgzOCwiaXNzIjoiaHR0cHM6Ly90ZXN0My5nYW1jdXN0b20uY29tL2lkZW50aXR5YXBpIiwiYXVkIjpbIjUwMyIsIjUxOSIsIjUxMCIsIjUxNiJdLCJjbGllbnRfaWQiOiJzZXJ2aWNlVGVzdGVyIiwiaWF0IjoxNjQ1NDY0MDM4LCJzY29wZSI6WyJwcm9kdWNlcmluZm9hcGktZnVsbCIsInVzZXJpbmZvYXBpLWZ1bGwiXX0.m4E8nR4kskYdNerv-GWMIQ-hfbbNE28luxZQQjKPHm50r6o0EYyujQ_8baqJh7MBSqA6wWUgGnVb8trfe2IqhPTWdxaXRQSs9Xf4GXda0fo_5ZhBX2YH3A7K1n-WQd5cCWpdXooW7q2z4xXnEc0_daOuth3QmmQU4SYV0tOPqhf5ClHykadWqeJgi79lepDDlVQXK3jzMpjGommRQqBWXBW0tigCJLheBBEhbn3HlP5EaWxRS3Bp-ZauE0EBx5uuwLEF_FD-LC5GhU9aVdUDA6RVaWJE19a-3hulN25cZ1kZj4sqoygjcC72Gf7zCotFTdZpUWf6etuff6iSixpUSw'</initValue>
+      <initValue>'eyJhbGciOiJSUzI1NiIsImtpZCI6IjI4RjdDODI3Njk3RkY2MEVGQkE0NUZDNjk4MEYwMEQ0QTI2OEE1MDFSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IktQZklKMmxfOWc3N3BGX0dtQThBMUtKb3BRRSJ9.eyJuYmYiOjE2NDY5NTQ0OTUsImV4cCI6MTY0Njk1ODA5NSwiaXNzIjoiaHR0cHM6Ly9kZXYzLmdhbWN1c3RvbS5pbmZvL2lkZW50aXR5YXBpIiwiYXVkIjpbIjUwMSIsIjUwMyIsIjUxOSIsIjUyMSIsIjUxMCIsIjUxNiJdLCJjbGllbnRfaWQiOiJzZXJ2aWNlVGVzdGVyIiwiaWF0IjoxNjQ2OTU0NDk1LCJzY29wZSI6WyJwb2xpY3lhcGktZnVsbCIsInByb2R1Y2VyaW5mb2FwaS1mdWxsIiwidXNlcmluZm9hcGktZnVsbCJdfQ.i-KH7vigHUhmoDJaRKwSZ9gwH7_9OrouaXeLagokdYbODc_hlX2GE7vmXwQdnyFiEY4sY14jttDDAOQ0XmQp9_2oSlbXmtjFMyRhnoWpYex-oGdND0FDJg57kDmAn2rI3L8xvtSwvHUsHSqMG1XBITkqfKWDX8lOhyRRpeVaVlJsqMRqQ1S7rR7m1-XTEyLtUDuyIrJwwEyLALEEiJdp3Uhl46tKl0MGgBbkZM_6-i4dfl4ZU6BCknudg0sUSXt4hU7hovLCEimFQ2tBKvCImLNdmaFFovPzdtixkmE3YaxTAlzAGRopLbMjp0wlP3yBloNo1M7cm0AmNyHaCf6wpA'</initValue>
       <name>token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,12 +16,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'&quot;bsathavara&quot;'</initValue>
+      <initValue>'&quot;APP_TESTER&quot;'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'&quot;@User2022Gamcustom1&quot;'</initValue>
       <name>pwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://test.gamcustom.net/ClearanceIUS'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qtTiV+PqhYlhG9tgIFJdeHddwyZcOvF5'</initValue>
+      <name>webPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'APP_TESTER'</initValue>
+      <name>webUserName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

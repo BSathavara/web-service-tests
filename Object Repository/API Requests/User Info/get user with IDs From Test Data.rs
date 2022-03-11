@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>get user with ID From Test Data - Copy</name>
+   <name>get user with IDs From Test Data</name>
    <tag></tag>
    <elementGuidId>1736197f-db2b-4a7e-825b-7e92e6aab9e2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +22,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${url}/userinfoapi/v1/users?username=${userName}</restUrl>
+   <restUrl>https://dapi2.gamcustom.info/userinfopiTESTING/v1/users/${id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -50,7 +50,7 @@
       <description></description>
       <id>d4a91064-565a-4ca5-8988-c99bc3365225</id>
       <masked>false</masked>
-      <name>userName</name>
+      <name>id</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

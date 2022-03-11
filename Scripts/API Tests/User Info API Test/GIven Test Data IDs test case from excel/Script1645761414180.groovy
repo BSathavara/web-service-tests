@@ -21,7 +21,7 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 
 // Calling get access token API to collect new token
-//WebUI.callTestCase(findTestCase('API Tests/Verify Token/API access token'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('API Tests/Verify Token/API access token'), [:], FailureHandling.STOP_ON_FAILURE)
 
 file = 'C:\\Users\\bsathavara\\Katalon Studio\\userInfoData\\userdata.xlsx'
 
@@ -34,22 +34,17 @@ for (int i = 0; i <= lastRow; i++) {
     def getUserNameFromTable = findTestData('Data Files/UserInfo Ids').getValue(1, i + 1)
     def expectedDisplayName = findTestData('Data Files/UserInfo Ids').getValue(2, i + 1)
 
-    response = WS.sendRequest(findTestObject('API Requests/User Info/get user with UserName From Test Data - Copy', [('token') : GlobalVariable.token
-                , ('url') : GlobalVariable.TestEnv, ('userName') : getUserNameFromTable]))
-
-    // Verifying API Response here.
-    WS.verifyResponseStatusCode(response, 200)
+    response = WS.sendRequest(findTestObject('API Requests/User Info/get user with IDs From Test Data', [('token') : GlobalVariable.token
+                , ('url') : GlobalVariable.TestEnv, ('id') : getUserNameFromTable]))
 
     String stringRes = response.getResponseBodyContent()
     JsonSlurper slurper = new JsonSlurper()
     Map parsedJson = slurper.parseText(stringRes)
-	println(parsedJson)
-    //String idValue = parsedJson.getAt("items").getAt("displayName").toString().replaceAll("\\p{P}", "").trim()
-	String res = parsedJson.getAt("items").getAt("displayName").toString()
+	print(parsedJson)
+	String res = parsedJson.getAt("displayName").toString()
 	String rem = res.replaceAll("\\[", "").trim()
 	String idValue = rem.replaceAll("\\]", "").trim()
-	
-	println(idValue)
+	print(idValue)
 
     if (idValue != null) {
         result = WS.verifyEqual(idValue, expectedDisplayName, FailureHandling.CONTINUE_ON_FAILURE)
